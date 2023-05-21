@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{22C557AA-23E6-4497-B479-C1FEA4AEC525}|Default">
+  <MonoDevelop.Ide.ItemProperties.SubtitleTimeshift.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../SubtitleTimeshift.Tests/ShifterTest.cs">
+    <Files>
+      <File FileName="Shifter.cs" Line="32" Column="25" />
+      <File FileName="../SubtitleTimeshift.Tests/ShifterTest.cs" Line="12" Column="46" />
+      <File FileName="../../testing/Program.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SubtitleTimeshift" expanded="True">
+            <Node name="SubtitleTimeshift" expanded="True" />
+            <Node name="SubtitleTimeshift.Tests" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SubtitleTimeshift" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Graph.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>../../testing/testing.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.SubtitleTimeshift PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+</Properties>

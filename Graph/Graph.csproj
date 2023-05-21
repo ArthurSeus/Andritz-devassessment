@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.Reactive.Linq" Version="4.4.1" />
+    <PackageReference Include="DeepCloner" Version="0.10.4" />
   </ItemGroup>
 
 </Project>
