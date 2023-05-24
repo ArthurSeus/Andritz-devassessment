@@ -9,7 +9,7 @@ namespace Graph
 {
     public interface IGraph<T>
     {
-        IObservable<IEnumerable<string>> RoutesBetween(T source, T target);
+        IObservable<IEnumerable<T>> RoutesBetween(T source, T target);
     }
 
     public class Graph<T> : IGraph<T>
@@ -71,9 +71,9 @@ namespace Graph
         }
 
 
-        public IObservable<IEnumerable<string>> RoutesBetween(T source, T target)
+        public IObservable<IEnumerable<T>> RoutesBetween(T source, T target)
         {
-            return Observable.Create<IEnumerable<string>>(observer =>
+            return (IObservable<IEnumerable<T>>)Observable.Create<IEnumerable<string>>(observer =>
             {
                 var routes = new List<List<string>>();
                 var currentRoute = new List<string>();
